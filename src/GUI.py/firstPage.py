@@ -10,6 +10,7 @@ def increment():
 
 root = tk.Tk()
 root.title("Step 1 - no Tk variables")
+root.geometry("500x500")
 
 lbl = tk.Label(root, text=str(count), font=("Segoe UI", 20))
 lbl.pack(padx=20, pady=10)
